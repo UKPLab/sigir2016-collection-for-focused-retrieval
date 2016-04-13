@@ -1,0 +1,14 @@
+Copyright 2016 TU Darmstadt
+
+
+-----------------------------------------------------------------------
+ 3rd party libraries
+-----------------------------------------------------------------------
+
+package edu.isi.mace
+
+MACE: Multi-Annotator Competence Estimation
+
+is licensed under NTP license
+
+https://opensource.org/licenses/NTP

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<queryResultContainer>
+	<qID>1</qID>
+	<query>Some query</query>
+	<narrative>Some narrative</narrative>
+	<rankedResults>
+		<singleRankedResult>
+			<rank>1</rank>
+			<clueWebID>clueweb12-0504wb-10-05099</clueWebID>
+			<score>7.39694018</score>
+			<additionalInfo>indri</additionalInfo>
+			<plainText>plain text</plainText>
+			<originalHtml>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+				&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html
+				xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en-US&quot; lang=&quot;en-US&quot;&gt;
+				&lt;head&gt;
+				&lt;title&gt; WP1RelevantDocumentAnnotations &amp;lt; DIP &amp;lt; UKP Wiki&lt;/title&gt;</originalHtml>
+			<relevant>false</relevant>
+			<mTurkRelevanceVotes>
+				<mTurkRelevanceVote>
+					<turkID>turk1D11</turkID>
+					<hitID>hitID1111</hitID>
+					<relevant>false</relevant>
+				</mTurkRelevanceVote>
+				<mTurkRelevanceVote>
+					<turkID>turk1D12</turkID>
+					<hitID>hitID1112</hitID>
+					<relevant>false</relevant>
+				</mTurkRelevanceVote>
+			</mTurkRelevanceVotes>
+		</singleRankedResult>
+
+		<singleRankedResult>
+			<rank>2</rank>
+			<clueWebID>clueweb12-0504wb-10-05987</clueWebID>
+			<score>8.396987</score>
+			<additionalInfo>indri</additionalInfo>
+			<plainText>plain text 2</plainText>
+			<originalHtml>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+				&quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;&lt;html
+				xmlns=&quot;http://www.w3.org/1999/xhtml&quot; xml:lang=&quot;en-US&quot; lang=&quot;en-US&quot;&gt;
+				&lt;head&gt;
+				&lt;title&gt;xxxxx
+			</originalHtml>
+			<relevant>false</relevant>
+		</singleRankedResult>
+
+		<singleRankedResult>
+			<rank>3</rank>
+			<clueWebID>clueweb12-0504wb-10-05987</clueWebID>
+			<score>8.396987</score>
+			<additionalInfo>indri</additionalInfo>
+		</singleRankedResult>
+
+	</rankedResults>
+</queryResultContainer>

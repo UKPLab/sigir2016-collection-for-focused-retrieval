@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2015 XXX
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+	<name>WebParagraphTypeSystem</name>
+	<description/>
+	<version>1.0</version>
+	<vendor>UKP</vendor>
+	<types>
+		<typeDescription>
+			<name>de.tudarmstadt.ukp.experiments.dip.wp1.documents.WebParagraph</name>
+			<description>Note or comment</description>
+			<supertypeName>uima.tcas.Annotation</supertypeName>
+			<features>
+				<featureDescription>
+					<name>originalHtmlTag</name>
+					<description>original html tag (e.g., p, h1, li, ...)</description>
+					<rangeTypeName>uima.cas.String</rangeTypeName>
+				</featureDescription>
+			</features>
+		</typeDescription>
+	</types>
+</typeSystemDescription>
