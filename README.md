@@ -57,7 +57,7 @@ the actual CSV files obtained as a direct output from AMT annotations, thus Step
 
 ## DIP2016Corpus Data format
 
-The corpus available at http://ie.technion.ac.il/~kurland/dip2016corpus/
+The corpus is available for download at http://ie.technion.ac.il/~kurland/dip2016corpus/
 
 The data are split into 49 files, one file per query.
 
