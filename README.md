@@ -4,17 +4,22 @@ This software was used to extract, clean, annotate, and evaluate the corpus desc
 
 Please use the following citation:
 
+TODO update after camera ready available
 ```
-@InProceedings{smith:20xx:CONFERENCE_TITLE,
-  author    = {Smith, John},
-  title     = {My Paper Title},
-  booktitle = {Proceedings of the 20XX Conference on XXXX},
-  month     = {Month Name},
-  year      = {20xx},
-  address   = {Gotham City, USA},
-  publisher = {Association for XXX},
+@InProceedings{XXXXX:2016:SIGIR,
+  author    = {XXX, XXX},
+  title     = {{New Collection Announcement: Focused Retrieval Over the Web}},
+  booktitle = {Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  series    = {SIGIR '16},
+  month     = {July},
+  year      = {2016},
+  location  = {Pisa, Italy},
   pages     = {XXXX--XXXX},
   url       = {http://xxxx.xxx}
+  publisher = {ACM},
+  address   = {New York, NY, USA},
+  doi       = {XXXXX},
+  acmid     = {XXXXX} 
 }
 ```
 
@@ -51,6 +56,8 @@ the actual CSV files obtained as a direct output from AMT annotations, thus Step
 
 
 ## DIP2016Corpus Data format
+
+The corpus available at http://ie.technion.ac.il/~kurland/dip2016corpus/
 
 The data are split into 49 files, one file per query.
 
