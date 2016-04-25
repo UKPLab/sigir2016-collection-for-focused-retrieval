@@ -6,20 +6,21 @@ Please use the following citation:
 
 TODO update after camera ready available
 ```
-@InProceedings{XXXXX:2016:SIGIR,
-  author    = {XXX, XXX},
+@InProceedings{Habernal.et.al.SIGIR.2016,
+  author    = {Habernal, Ivan and Sukhareva, Maria and Raiber, Fiana and
+               Shtok, Anna and Kurland, Oren and Ronen, Hadar and
+               Bar-Ilan, Judit and Gurevych, Iryna},
   title     = {{New Collection Announcement: Focused Retrieval Over the Web}},
-  booktitle = {Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval},
-  series    = {SIGIR '16},
+  booktitle = {Proceedings of the 39th International ACM SIGIR Conference on Research and
+               Development in Information Retrieval},
   month     = {July},
   year      = {2016},
-  location  = {Pisa, Italy},
-  pages     = {XXXX--XXXX},
-  url       = {http://xxxx.xxx}
   publisher = {ACM},
   address   = {New York, NY, USA},
-  doi       = {XXXXX},
-  acmid     = {XXXXX} 
+  pages     = {(to appear)},
+  series    = {SIGIR '16},
+  location  = {Pisa, Italy},
+  url       = {TBA}
 }
 ```
 
@@ -58,6 +59,7 @@ the actual CSV files obtained as a direct output from AMT annotations, thus Step
 ## DIP2016Corpus Data format
 
 The corpus is available for download at http://ie.technion.ac.il/~kurland/dip2016corpus/
+    * Mirrored at https://public.ukp.informatik.tu-darmstadt.de/dip2016corpus/
 
 The data are split into 49 files, one file per query.
 
