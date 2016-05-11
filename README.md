@@ -4,7 +4,6 @@ This software was used to extract, clean, annotate, and evaluate the corpus desc
 
 Please use the following citation:
 
-TODO update after camera ready available
 ```
 @InProceedings{Habernal.et.al.SIGIR.2016,
   author    = {Habernal, Ivan and Sukhareva, Maria and Raiber, Fiana and
@@ -20,11 +19,12 @@ TODO update after camera ready available
   pages     = {(to appear)},
   series    = {SIGIR '16},
   location  = {Pisa, Italy},
+  doi       = {10.1145/2911451.2914682},
   url       = {TBA}
 }
 ```
 
-> **Abstract:** TODO finish 
+> **Abstract:** Focused retrieval (a.k.a., passage retrieval) is important at its own right and as an intermediate step in question answering systems. We present a new Web-based collection for focused retrieval. The document corpus is the Category A of the ClueWeb12 collection. Forty-nine queries from the educational domain were created. The 100 documents most highly ranked for each query by a highly effective learning-to-rank method were judged for relevance using crowdsourcing. All sentences in the relevant documents were judged for relevance.
 
 
 Contact person: Ivan Habernal, habernal@ukp.informatik.tu-darmstadt.de
