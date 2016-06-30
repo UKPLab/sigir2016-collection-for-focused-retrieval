@@ -284,6 +284,67 @@ public class Step11GoldDataStatistics
 
     }
 
+    /**
+     * Relevant sentences per document (per query)
+     */
+    public static void statistics6(File inputDir, File outputDir)
+            throws IOException
+    {
+        PrintWriter pw = new PrintWriter(new FileWriter(new File(outputDir, "stats6.csv")));
+
+        SortedMap<String, DescriptiveStatistics> result = new TreeMap<>();
+        result.put("relevantSentencesDocumentPercent", new DescriptiveStatistics());
+
+        // print header
+        for (String mapKey : result.keySet()) {
+            pw.printf(Locale.ENGLISH, "%s\t%sStdDev\t", mapKey, mapKey);
+        }
+        pw.println();
+
+        // iterate over query containers
+        for (File f : FileUtils.listFiles(inputDir, new String[] { "xml" }, false)) {
+            QueryResultContainer queryResultContainer = QueryResultContainer
+                    .fromXML(FileUtils.readFileToString(f, "utf-8"));
+            System.out.println("Processing " + f);
+
+
+
+            for (QueryResultContainer.SingleRankedResult rankedResult : queryResultContainer.rankedResults) {
+
+                if (rankedResult.plainText != null && !rankedResult.plainText.isEmpty()) {
+
+                    int relevantSentences = 0;
+                    int totalSentences = 0;
+
+                    if (rankedResult.goldEstimatedLabels != null) {
+                        for (QueryResultContainer.SingleSentenceRelevanceVote sentenceRelevanceVote : rankedResult.goldEstimatedLabels) {
+                            totalSentences++;
+
+                            if (Boolean.valueOf(sentenceRelevanceVote.relevant)) {
+                                relevantSentences++;
+                            }
+                        }
+
+                        // percent relevant
+
+                        result.get("relevantSentencesDocumentPercent")
+                                .addValue((double) relevantSentences / (double) totalSentences);
+                    }
+                }
+            }
+        }
+
+        // print results
+        // print header
+        for (String mapKey : result.keySet()) {
+            pw.printf(Locale.ENGLISH, "%.3f\t%.3f\t", result.get(mapKey).getMean(),
+                    result.get(mapKey).getStandardDeviation());
+        }
+
+        pw.close();
+
+    }
+
     public static void main(String[] args)
             throws Exception
     {
@@ -302,6 +363,7 @@ public class Step11GoldDataStatistics
         statistics3(inputDir, outputDir);
         statistics4(inputDir, outputDir);
         statistics5(inputDir, outputDir);
+        statistics6(inputDir, outputDir);
     }
 
 }
