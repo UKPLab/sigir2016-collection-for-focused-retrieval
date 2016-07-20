@@ -20,7 +20,7 @@ Please use the following citation:
   series    = {SIGIR '16},
   location  = {Pisa, Italy},
   doi       = {10.1145/2911451.2914682},
-  url       = {TBA}
+  url       = {http://dl.acm.org/citation.cfm?doid=2911451.2914682}
 }
 ```
 
