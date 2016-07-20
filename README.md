@@ -16,7 +16,7 @@ Please use the following citation:
   year      = {2016},
   publisher = {ACM},
   address   = {New York, NY, USA},
-  pages     = {(to appear)},
+  pages     = {701--704},
   series    = {SIGIR '16},
   location  = {Pisa, Italy},
   doi       = {10.1145/2911451.2914682},
