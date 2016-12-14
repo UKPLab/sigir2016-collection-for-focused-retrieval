@@ -111,3 +111,59 @@ You can modify the resulting corpus by changing the implementation of `Step12Gol
     * You can access the original HTML (although the annotated sentences are not annotated directly
     on top of HTML but rather after boilerplate removal and cleaning)
     * The sentences boundaries annotations are also embedded in the data
+
+## Extracted list of queries
+
+This list of queries is extracted from the full XML files (using `cat *.xml | grep -o -P "(?<=<query>).*(?=</query>)" | sed "s/&apos;/'/g`)
+
+```
+alternative ADHD treatments
+cellphone for 12 years old kid
+dealing with kid that skip classes
+depression in children
+discipline for 8 year old daughter
+discipline issues in elementary school
+getting rid of childhood phobia
+handling conflicts between children
+homeschooling legal issues
+homeschooling of two children
+homeschooling versus public school
+pros and cons of montessori school
+quite smoking teenagers
+reasons for homeschooling
+sleep problems in preschool children
+student loans
+students loans without credit history
+studying techniques and methods
+teenagers behavior problems and solutions
+school dealing with bullying
+signs of bullied kids
+parents involvement dealing with bullying
+parents dealing with their kids being cyber-bullied
+signs of cyber-bullied kids
+explaining kids the online dangers
+guide for parents to protect their kids online
+parents' involvement in children alcohol behavior
+parents of kids doing drugs 
+school punishment policy
+home discipline methods for grade-schoolers
+parents of kids suffering from test anxiety
+parents involvement in relieving study load at school
+parents of kids hooked on computer games
+kids with depression
+parents of shy kids at school
+the right age to enter kindergarten/school
+signs to know if child is ready to start school
+parents involvement in didactic assessments of their child's learning capabilities
+school dealing with diagnosed learning disability
+parents involvement in educational content at school
+parents concerns about religious classes at school
+parents of early reading kids
+parents deal with children's obesity
+parents concerns about early age to use cellphone
+ways parents can get involved in school
+special education needs of gifted children
+toddler and preschooler - Potty training at home
+family fit to Waldorf (anthroposophy) or Montessori school 
+parents involvement in schools' attitude to gifted children
+```
